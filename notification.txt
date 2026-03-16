@@ -1,0 +1,25 @@
+# Cloud Notification System
+
+This project demonstrates a cloud-based notification system built using AWS services.
+
+Architecture:
+User Request → API Gateway → AWS Lambda → SNS Topic → Email Notification
+
+Services Used:
+- AWS Lambda
+- Amazon SNS
+- API Gateway
+
+Features:
+- Real-time notification delivery
+- Email alerts
+- Serverless architecture
+
+How it works:
+When an event triggers the API, Lambda publishes a message to SNS. SNS then sends the notification to subscribed users via email.
+
+Future Improvements
+- SMS notifications
+- Push notifications
+- Notification delivery tracking
+- Multi-user support

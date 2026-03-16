@@ -1,0 +1,9 @@
+User Request
+     ↓
+API Gateway
+     ↓
+AWS Lambda
+     ↓
+SNS Topic
+     ↓
+Email Notification
